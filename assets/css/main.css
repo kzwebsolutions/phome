@@ -1233,7 +1233,7 @@ input, select, textarea {
 				padding: 1rem;
 			}
 			#bg:before{
-				background-size: 300%;
+				background-size: 250%;
 			}
 		}
 
@@ -1264,7 +1264,28 @@ input, select, textarea {
 		text-align: center;
 		background-repeat: no-repeat;
 	}
-
+	
+	  .gallery_pics img {
+		width: 100%;
+		height: 100%;
+	  }
+	  .gallery_pics:hover {
+		cursor: pointer;
+	  }
+	  .gallery_pics.fullscreen img {
+		width: 100%;
+		height: 100%;
+	  }
+	  .gallery_pics.fullscreen {
+		z-index: 9999;
+		position: fixed;
+		align-items: center;
+		width: 100%;
+		height: auto;
+		top: 5;
+		left: 0;
+		
+	  }
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out;
