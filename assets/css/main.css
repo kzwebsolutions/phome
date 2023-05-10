@@ -1282,8 +1282,9 @@ input, select, textarea {
 		align-items: center;
 		width: 100%;
 		height: auto;
-		top: 5;
+		top: 0;
 		left: 0;
+		bottom: 0;
 		
 	  }
 		#header > * {
