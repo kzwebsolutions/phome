@@ -1272,19 +1272,17 @@ input, select, textarea {
 	  .gallery_pics:hover {
 		cursor: pointer;
 	  }
-	  .gallery_pics.fullscreen img {
-		width: 100%;
-		height: 100%;
-	  }
+	  
 	  .gallery_pics.fullscreen {
 		z-index: 9999;
 		position: fixed;
 		align-items: center;
 		width: 100%;
 		height: auto;
-		top: 0;
+		top: 20%;
 		left: 0;
-		bottom: 0;
+		bottom: 50%;
+		justify-content: center;
 		
 	  }
 		#header > * {
